@@ -33,6 +33,23 @@ document.addEventListener("DOMContentLoaded", function () {
         seeMoreButton.style.display = "none"; // Ocultar el botón al salir del hover
     });
 
+    var menuLinks = document.querySelectorAll('.menu-item a');
+    menuLinks.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault(); // Evitar que el enlace funcione inmediatamente
+        var target = link.getAttribute('href'); // Obtener el objetivo del enlace
+        var targetElement = document.querySelector(target);
+        if (targetElement) {
+          var offset = targetElement.offsetTop;
+          // Animación de desplazamiento suave
+          window.scrollTo({
+            top: offset,
+            behavior: 'smooth', // Hace que el desplazamiento sea suave
+          });
+        }
+      });
+    });
+
     // Aplicar margen izquierdo solo a la primera imagen
     slides[0].style.marginLeft = "7px"; // Ajusta el valor del margen izquierdo
 
