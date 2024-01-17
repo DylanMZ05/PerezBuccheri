@@ -351,7 +351,7 @@ h2, p {
     
     height: 65px;
     width: 91vw;
-    max-width: 1110px;
+    max-width: 650px;
 
 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -370,6 +370,7 @@ h2, p {
 
 .third-section__img-container img {
     width: 90vw;
+    max-width: 650px;
     margin: 0;
 
     border: 1px solid #00000079;
@@ -705,7 +706,7 @@ footer {
 
 
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
 
     .dekstop {
         display: flex;
@@ -748,6 +749,9 @@ footer {
 
 
 
+    .third-section header {
+        max-width: 1110px;
+    }
 
     .third-section__img-container__div {
         display: flex;
@@ -881,6 +885,13 @@ footer {
     }
 }
 
+@media (min-height: 1100px) and (min-width: 900px) {
+    .header-li {
+        display: flex;
+    }
+
+}
+
 
 @media (min-height: 1100px) {
 
@@ -891,7 +902,7 @@ footer {
     }
 
     .header-li-dekstop a {
-        font-size: 35px;
+        font-size: 22px;
     }
 
     .header-logo img {
@@ -906,10 +917,6 @@ footer {
 
     .header-li {
         top: 120px;
-    }
-
-    .header-li-a {
-        font-size: 35px;
     }
 
     #trabajo {
