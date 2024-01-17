@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Roboto+Slab:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes");
 
 
 body, html {
@@ -105,11 +107,15 @@ a {
 .imagen {
     width: 90vw;
     margin: 2px;
-
-    border-radius: 16px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+.header-container h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    margin: 12px 0 0 25px;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px #000;
+}
 
 
 
@@ -225,12 +231,12 @@ footer {
 /* ANIMACIONES */
 
 .animation{
-    transition: transform .5s ease;
+    transition: transform .8s ease;
 }
 
 .animation:hover {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 
@@ -245,7 +251,7 @@ footer {
 }
 
 .header-li-a:hover {
-    color: #c78449;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -256,7 +262,7 @@ footer {
     height: 2px;
     bottom: -1px;
     left: 0;
-    background-color: rgb(140, 93, 52);
+    background-color: rgb(255, 255, 255);
     visibility: hidden;
     transition: width 0.3s ease, visibility 0.3s ease;
 }
