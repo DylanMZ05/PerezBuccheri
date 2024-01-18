@@ -16,9 +16,6 @@ body, html {
     overflow-x: hidden;
 }
 
-a {
-    text-decoration: none;
-}
 
 
 .header-container {
@@ -40,16 +37,6 @@ a {
 
 .header-logo {
     display: flex;
-}
-
-.header-logo img {
-    width: 60px;
-    padding: 4px;
-    margin: 10px;
-    background-color: #ffffff4f;
-    border-radius: 15px;
-    border: 2px solid #ffffff4f;
-    box-shadow: 0px 0px 5px #ffffff;
 }
 
 .header-menu {
@@ -80,8 +67,6 @@ a {
 
 
 
-
-
 .first-section {
     background-color: #343434;
 }
@@ -90,15 +75,19 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
     margin-top: 100px;
     margin-bottom: 10px;
-    width: 100vw;
+    width: 90vw;
+    max-width: 1000px;
     
     color: #ffffff;
     background-color: #000000;
-    border: 1px solid #292929;
-    box-shadow: 0px 0px 10px #efefef;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-top: 1px solid #ffffff9b;
+    border-bottom: 1px solid #ffffff9b;
 }
 
 .first-section__img-container {
@@ -110,7 +99,8 @@ a {
 
 .imagen {
     width: 90vw;
-    margin: 2px;
+    max-width: 1000px;
+    margin: 7px 2px 7px;
 }
 
 
@@ -164,82 +154,27 @@ footer {
     margin: 20px 0;
 }
 
-.dekstop {
+.movile {
     display: none;
 }
 
 
-@media (min-width: 800px) {
-    .movile {
+
+@media (max-width: 700px) {
+    .dekstop {
         display: none;
     }
 
-    .dekstop{ 
+    .movile {
         display: flex;
     }
-
-    .first-section__title {
-        height: 70px;
-    }
-
-    .first-section__title p {
-        font-size: 20px;
-    }
-
-    .imagen {
-        width: 45vw;
-        max-width: 500px;
+    
+    .header-container h2 {
+        margin-right: 30px;
     }
 }
-
-
-@media (min-height: 1100px) {
-    .header-container {
-        height: 130px;
-    }
-
-    .header-logo img {
-        width: 100px;
-        margin-left: 50px;
-    }
-
-    .header-menu button {
-        font-size: 35px;
-    }
-
-
-
-
-    .first-section__title {
-        margin-top: 150px;
-        height: 100px;
-    }
-
-    .first-section__title p {
-        font-size: 35px;
-    }
-
-    .imagen {
-        max-width: 1000px;
-    }
-}
-
 
 /* ANIMACIONES */
-
-.animation{
-    transition: transform .8s ease;
-}
-
-.animation:hover {
-    cursor: pointer;
-    transform: scale(1.02);
-}
-
-
-
-
-
 
 .header-li-a {
     position: relative;
