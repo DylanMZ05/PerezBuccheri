@@ -1040,7 +1040,7 @@ footer {
 
 /* ANIMACIONES  */
 
-/* .animation{
+.animation{
     transition: transform .8s ease;
 }
 
@@ -1162,4 +1162,4 @@ footer {
     100% {
         opacity: 0;
     }
-} */
+}
