@@ -85,7 +85,7 @@ h2, p {
 }
 
 .header-container img {
-    width: 75px;
+    width: 55px;
     margin-left: 4vw;
 }
 
@@ -211,13 +211,13 @@ h2, p {
 .bold-movile {
     font-size: 15px;
     text-decoration: underline;
-    font-weight: bold;
 }
 
 .name-movile {
     font-size: 13px;
-    margin: 5px 0 0;
+    margin: 15px 0;
     text-indent: 5px;
+    font-weight: bold;
 }
 
 
@@ -228,7 +228,7 @@ h2, p {
     letter-spacing: 2px;
 
     position: absolute;
-    bottom: 0;
+    bottom: 50px;
 }
 
 
@@ -703,12 +703,12 @@ footer {
 
 
     .first-section__txt h1 {
-        font-size: 35px;
-        text-underline-offset: 14px;
+        font-size: 45px;
+        text-underline-offset: 17px;
     }
 
     .first-section__txt p {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .first-section-dekstop {
@@ -726,13 +726,13 @@ footer {
     .bold-movile {
         font-size: 20px;
         text-decoration: underline;
-        font-weight: bold;
     }
     
     .name-movile {
         font-size: 18px;
-        margin: 5px 0 0;
+        margin: 15px 0;
         text-indent: 5px;
+        font-weight: bold;
     }
     
     
@@ -743,7 +743,7 @@ footer {
         letter-spacing: 2px;
     
         position: absolute;
-        bottom: 0;
+        bottom: 80px;
     }
 
 
@@ -816,23 +816,25 @@ footer {
     .first-section__integrantes-txt {
         position: absolute;
         right: 100px;
-        top: 180px;
+        top: 50%;
+        transform: translateY(-41.3%);
     }
 
     .first-section__txt {
         padding-top: 0;
-        padding-bottom: 200px;
 
         position: absolute;
-        left: 100px;
+        left: 12vw;
+        top: 10vh;
     }
 
     .first-section__txt h1 {
-        font-size: 45px;
+        font-size: 55px;
     }
 
     .first-section__txt p {
-        font-size: 37px;
+        font-size: 40px;
+        margin-top: 0;
     }
 
     .first-section__movile {
@@ -845,27 +847,25 @@ footer {
     }
     
     .first-section__integrantes-txt h2 {
-        font-size: 35px;
-        text-decoration: underline;
-        margin: 0px 0 20px;
-    }
-    
-    .first-section__integrantes-txt h2 {
         font-size: 30px;
         text-decoration: underline;
-        margin-bottom: 10px;
+        margin: 20px 0 40px;
     }
     
     .bold-dekstop {
-        font-size: 25px;
+        font-size: 20px;
         text-decoration: underline;
-        font-weight: bold;
     }
     
     .name-dekstop {
-        font-size: 23px;
-        margin: 20px 0;
-        text-indent: 5px;
+        font-size: 18px;
+        margin: 40px 0;
+        text-indent: 6px;
+        font-weight: bold;
+    }
+
+    .bottom {
+        margin-bottom: 20px;
     }
     
     
@@ -965,7 +965,7 @@ footer {
     .first-section__integrantes-txt h2 {
         font-size: 50px;
         text-decoration: underline;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
     
     .first-section__integrantes-txt b {
@@ -1038,9 +1038,9 @@ footer {
 
 
 
-/* ANIMACIONES  */
+/* ANIMACIONES */
 
-.animation{
+/* .animation{
     transition: transform .8s ease;
 }
 
@@ -1048,10 +1048,6 @@ footer {
     cursor: pointer;
     transform: scale(1.02);
 }
-
-
-
-
 
 
 
@@ -1085,13 +1081,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
 .animation-entry-3-5s {
     opacity: 0;
     animation: entry 1.8s ease-in forwards;
@@ -1110,8 +1099,6 @@ footer {
         opacity: 1;
     }
 }
-
-
 
 
 
@@ -1162,4 +1149,4 @@ footer {
     100% {
         opacity: 0;
     }
-}
+} */
